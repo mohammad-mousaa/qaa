@@ -1,5 +1,5 @@
 @foreach ($comments as $item)
-    <div @if ($item->parent_id != null) style="margin-left:60px;color:red" @endif>
+    <div @if ($item->parent_id != null) style="margin-left:60px" @endif>
         <strong>{{ $item->user->name }}</strong>
         <p>{{ $item->description }}</p>
         <form method="POST" action="{{ route('comments.store') }}">
