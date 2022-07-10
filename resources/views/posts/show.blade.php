@@ -13,6 +13,7 @@
 
                             <hr>
 
+                            
                             <h4>Comments</h4>
                             @include('posts.comments', [
                                 'comments' => $post->comments,
