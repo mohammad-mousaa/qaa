@@ -16,8 +16,9 @@
                                 'comments' => $post->comments,
                                 'post_id' => $post->id,
                             ])
-                            
+
                             <hr>
+                            
                             <form method="POST" action="{{ route('comments.store') }}">
                                 @csrf
                                 <div class="form-group">
