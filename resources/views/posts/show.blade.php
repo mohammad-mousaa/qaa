@@ -25,7 +25,6 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary">Add comments</button>
                             </form>
-
                         </div>
                     </div>
                 </div>
